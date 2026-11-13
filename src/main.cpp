@@ -1,8 +1,8 @@
 #include <Arduino.h>
 #include <LedControl.h>
 
-constexpr unsigned LED_X_DIMENSION = 8;
-constexpr unsigned LED_Y_DIMENSION = 8;
+constexpr int LED_X_DIMENSION = 8;
+constexpr int LED_Y_DIMENSION = 8;
 
 LedControl LC(12, 10, 11);
 
