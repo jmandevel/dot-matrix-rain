@@ -57,5 +57,5 @@ void loop() {
     }
   }
 
-  delay(1000 / 20);
+  delay(1000 / 20); // 20 fps
 }
